@@ -31,9 +31,6 @@ public class Radio {
         } else {
             currentRadioStationNumber = 0;
         }
-        //if (currentRadioStationNumber == 9) {
-            //currentRadioStationNumber = 0;
-        //}
     }
 
     public void prev() {
@@ -43,9 +40,6 @@ public class Radio {
         } else {
             currentRadioStationNumber = 9;
         }
-        //if (currentRadioStationNumber == 0) {
-            //currentRadioStationNumber = 9;
-       // }
     }
 
     public void setCurrentVolume(int newCurrentVolume) {
@@ -65,9 +59,6 @@ public class Radio {
         } else {
             currentVolume = 100;
         }
-        //if (currentVolume == 100) {
-            //currentVolume = 100;
-       // }
     }
 
     public void volumeDown() {
@@ -77,9 +68,6 @@ public class Radio {
         } else {
             currentVolume = 0;
         }
-        //if (currentVolume == 0) {
-           // currentVolume = 0;
-       // }
     }
 }
 
